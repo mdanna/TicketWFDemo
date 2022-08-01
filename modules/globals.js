@@ -1,7 +1,9 @@
 const globals = {
   step: 0, // this is the current step
   role: 'resp', // this is the current role selected
+  
   roleForStep: ['resp', 'resp', 'resp', 'coord', 'dev', 'resp', 'dev', 'coord'],
+  
   users: {
     resp: {
       name: 'Henry Boyle',
@@ -19,6 +21,18 @@ const globals = {
       image: 'photo_1.png'
     }
   },
+  
+  stepNames: [
+    'Ticket Workflow',
+    'Ticket Creation',
+    'Recommendations',
+    'Solution Proposition',
+    'Solution Definition',
+    'Proposition Acceptance',
+    'Solution Implementation',
+    'Solution Acceptance'
+  ],
+
   EVT_SELECT_MENU_ITEM: 'selectMenuItem',
   EVT_SET_STEP: 'setStep',
   EVT_SET_ROLE: 'setRole',

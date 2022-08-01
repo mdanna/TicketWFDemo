@@ -35,8 +35,51 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
-    "id": "CopyStandardSelect0a9d0f4b7106f4d",
+    "data": {
+        "caption": "Mission Type",
+        "data": {
+            "desktop": [
+                {
+                    "lblSelectionItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Internal"
+                    }
+                },
+                {
+                    "lblSelectionItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "External"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "selection": "Internal"
+    },
+    "id": "selMisionType",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

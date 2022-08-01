@@ -1,14 +1,4 @@
 define(function() {
-  const stepNames = [
-    'Rapport de missions',
-    'Création du rapport',
-    'Recommandation',
-    'Preposition de Solution',
-    'Définition de solution',
-    'J\'accepte la proposition',
-    'Réalisation de solution',
-    'J\'accepte la solution réalisée'
-  ];
 
   const SKIN_SELECTED = 'sknFlxStepSelected';
   const SKIN_UNSELECTED = 'sknFlxStepUnselected';
@@ -24,7 +14,7 @@ define(function() {
       });
       defineSetter(this, 'step', value => {
         this._step = parseInt(value || 0);
-        this.view.lblStep.text = stepNames[this._step];
+        this.view.lblStep.text = globals.stepNames[this._step];
         for(let i = 0; i < 8; i++){
           this.view[`flxStep${i}`].skin = i === this._step ? SKIN_SELECTED : SKIN_UNSELECTED;
         }

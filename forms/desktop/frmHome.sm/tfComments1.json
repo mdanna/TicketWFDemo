@@ -35,8 +35,10 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
-    "id": "CopyStandardTextField0c3af5d6067784b",
+    "data": {
+        "caption": "Comments"
+    },
+    "id": "tfComments1",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

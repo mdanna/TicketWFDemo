@@ -27,7 +27,7 @@
     "_skin_": "s183fcf1d42f4ad68d6119fbd52d4202",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -35,12 +35,14 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
-    "id": "CopyStandardSelect0b068c9cced2745",
+    "data": {
+        "caption": "Mission ID (*)"
+    },
+    "id": "tfMissionId",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a3aa7aed5c1b40b68e562d6e23db06e4",
+    "kuid": "c78f1652e0f1474ebb8f8088624769da",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxLeft1",
@@ -48,7 +50,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "b9c684bbf9094b1396469d759d8a24b2",
+    "sourceUserWidget": "d353d332f6554c0bb17590419363c70d",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

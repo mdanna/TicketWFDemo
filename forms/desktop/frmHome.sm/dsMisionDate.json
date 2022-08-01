@@ -35,8 +35,10 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
-    "id": "StandardDateSelector",
+    "data": {
+        "caption": "Mission Date"
+    },
+    "id": "dsMisionDate",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

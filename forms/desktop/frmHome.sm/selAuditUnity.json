@@ -35,8 +35,51 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
-    "id": "CopyStandardSelect0f7c0f45f255442",
+    "data": {
+        "caption": "Audit Unity",
+        "data": {
+            "desktop": [
+                {
+                    "lblSelectionItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Unity 1"
+                    }
+                },
+                {
+                    "lblSelectionItem": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Unity 2"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "selection": "Unity 2"
+    },
+    "id": "selAuditUnity",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

@@ -35,10 +35,10 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyStandardTextField0e1006240969943",
-        "CopyStandardSelect0f7c0f45f255442",
-        "CopyStandardSelect0a9d0f4b7106f4d",
-        "CopyStandardDateSelector0cde0649cde6349"
+        "tfMissionTitle",
+        "selAuditUnity",
+        "selMisionType",
+        "dsMissionDiffusion"
     ],
     "clipbounds": true,
     "containerweight": 100,

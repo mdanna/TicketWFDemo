@@ -27,7 +27,7 @@
     "_skin_": "s183fcf1d42f4ad68d6119fbd52d4202",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
@@ -35,12 +35,14 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
-    "id": "CopyStandardTextField0e1006240969943",
+    "data": {
+        "caption": "Mission Diffusion"
+    },
+    "id": "dsMissionDiffusion",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b3adb2e7041749fcb4f9e83250ae1c57",
+    "kuid": "d7e7344e37944f24aba2b2850f745e0a",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxRight1",
@@ -48,7 +50,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "d353d332f6554c0bb17590419363c70d",
+    "sourceUserWidget": "c9b889ff23f642e68ddcad580bd498b1",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }
