@@ -1,0 +1,51 @@
+{
+    "classname": "User",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "resp",
+                    "group": "General",
+                    "kuid": "jb19dde153024d618762f55e402be5b6",
+                    "originalPropertyKey": "role",
+                    "propertyIndex": 1,
+                    "propertyKey": "role",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "role",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "jb5d73dc8fc8430bb22687220cc218df",
+                    "type": "list selector",
+                    "value": [
+                        "resp",
+                        "coord",
+                        "dev"
+                    ]
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.probtp2",
+    "version": "1.0.0"
+}

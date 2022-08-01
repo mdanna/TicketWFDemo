@@ -1,0 +1,120 @@
+{
+    "classname": "StandardRadioCheckbox",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ba672f668a9e46b299b63e8635838092",
+                    "paramList": [],
+                    "propertyKey": "getValue",
+                    "pw": {
+                        "displayName": "getValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jc4373cb534641b08c620f67b9fd410a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e3195eebf32e4c70887550c2b525186c",
+                    "paramList": [],
+                    "propertyKey": "getBooleanValue",
+                    "pw": {
+                        "displayName": "getBooleanValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jc4373cb534641b08c620f67b9fd410a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "left",
+                    "group": "General",
+                    "kuid": "fda9384badac449f928fb48ef4b09349",
+                    "originalPropertyKey": "selection",
+                    "propertyIndex": 4,
+                    "propertyKey": "selection",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selection",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "jc4373cb534641b08c620f67b9fd410a",
+                    "type": "list selector",
+                    "value": [
+                        "left",
+                        "right"
+                    ]
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i189936e318044089f4af7e158ca633a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "caption",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "caption",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblCaption",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e563c0a1e357435ca58c32af31d9cbaf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "efec511566724bc2ae8651b7d8db63ae",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textLeft",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textLeft",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLeft",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ede6c1d1437c410d9796bd770886f634"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.probtp2",
+    "version": "1.0.0"
+}

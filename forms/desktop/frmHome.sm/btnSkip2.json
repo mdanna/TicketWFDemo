@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "90dp"
+    },
+    "_skin_": "s2fb12640f4f447a986a2b1637e7c9dc",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "label": "Skip"
+    },
+    "id": "btnSkip2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b84d87cdae05458c83aa76e2f77ed3cc",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxFooter2",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "dbf8923d4858477d827c4ba2cce3ffe7",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,120 @@
+{
+    "classname": "UserSelectorItem",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "b790716d9ad1468c9202f7bb0fcfef84",
+                    "originalPropertyKey": "roleKey",
+                    "propertyIndex": 4,
+                    "propertyKey": "roleKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "roleKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bf540fcc67ba4bebb26590e7a55c01e3",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g6136758997e4251b175e6946375a33d",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "image",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "image",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgUser",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "eda17334bf36410db9087b7d4fdd5673"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e583cee6d0254a638bc804d85e8fb2d8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "user",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "user",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblUserName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a88fc1949a22470488d69731ef814a12"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d7d9018679724576b53674bc69ecdfc7",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "role",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "role",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRole",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "h1446d7805a545bfa73ac6edc5a8aecd"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.probtp2",
+    "version": "1.0.0"
+}

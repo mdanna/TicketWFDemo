@@ -1,0 +1,49 @@
+{
+    "classname": "Steps",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 0,
+                    "group": "General",
+                    "kuid": "ha71c3ddeb144cffa4f7959fc688e623",
+                    "originalPropertyKey": "step",
+                    "propertyIndex": 1,
+                    "propertyKey": "step",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "step",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "jcced02027684bd3b82cf4d791e172cd",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.probtp2",
+    "version": "1.0.0"
+}
