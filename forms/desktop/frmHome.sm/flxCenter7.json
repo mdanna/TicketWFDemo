@@ -37,10 +37,10 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "CopyRecapItem0h688567f3fef45",
-        "CopyRecapItem0cc43011aaed148",
-        "CopyRecapItem0i68c6769e5f04b",
-        "CopyRecapItem0fbb6274e9d3f4c"
+        "recapImplLevel",
+        "recapImplUserAcceptance",
+        "recapImplInvolve",
+        "recapImplComments"
     ],
     "clipbounds": true,
     "containerweight": 100,

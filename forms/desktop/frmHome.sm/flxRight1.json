@@ -36,9 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "tfMissionTitle",
-        "selAuditUnity",
-        "selMisionType",
-        "dsMissionDiffusion"
+        "selMissionType",
+        "selMissionAuditUnity"
     ],
     "clipbounds": true,
     "containerweight": 100,

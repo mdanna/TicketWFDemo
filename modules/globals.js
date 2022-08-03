@@ -32,6 +32,8 @@ const globals = {
     'Solution Implementation',
     'Solution Acceptance'
   ],
+  
+  data: {},
 
   EVT_SELECT_MENU_ITEM: 'selectMenuItem',
   EVT_SET_STEP: 'setStep',

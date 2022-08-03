@@ -35,10 +35,10 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "StandardSelect3",
-        "StandardRadioCheckbox1",
-        "StandardTextField3",
-        "CopyStandardTextField0a2a7e9be2f3247"
+        "selImplLevel",
+        "radioImplUserAcceptance",
+        "radioImplInvolve",
+        "taImplComments"
     ],
     "clipbounds": true,
     "containerweight": 100,

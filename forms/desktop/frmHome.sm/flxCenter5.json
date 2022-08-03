@@ -37,14 +37,14 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "RecapItem",
-        "CopyRecapItem0de9f0fb0fe1348",
-        "CopyRecapItem0g2f705c9867f48",
-        "CopyRecapItem0a2b3ab0156294a",
-        "CopyRecapItem0cd1bc224b7094a",
-        "CopyRecapItem0i8384a2242c444",
-        "CopyRecapItem0gf14e4baf95b49",
-        "CopyRecapItem0d5137119ad864a"
+        "recapSolutionStep",
+        "recapSolutionSoftware",
+        "recapSolutionDescription",
+        "recapSolutionTargetDate",
+        "recapSolutionType",
+        "recapSolutionRequirements",
+        "recapSolutionComplements",
+        "recapSolutionDefinition"
     ],
     "clipbounds": true,
     "containerweight": 100,

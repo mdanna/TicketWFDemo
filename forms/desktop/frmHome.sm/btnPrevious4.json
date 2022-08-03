@@ -41,7 +41,7 @@
     "id": "btnPrevious4",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "h60d4e173d2d4ca38def67d6880d5d03",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",

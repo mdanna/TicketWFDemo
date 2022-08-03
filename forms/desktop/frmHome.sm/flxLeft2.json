@@ -35,10 +35,10 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "StandardTextField1",
-        "StandardSelect1",
-        "CopyStandardTextField0id2a27066c3f44",
-        "StandardDateSelector1"
+        "tfRecoId",
+        "selRecoAuditUnity",
+        "tfRecoEmail",
+        "taRecoComments"
     ],
     "clipbounds": true,
     "containerweight": 100,

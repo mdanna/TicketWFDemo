@@ -36,10 +36,10 @@
     "canUpdateUI": true,
     "children": [
         "tfMissionId",
-        "selAuditEntity",
-        "selAuditType",
-        "dsMisionDate",
-        "tfComments1"
+        "dsMissionDate",
+        "selMissionAuditEntity",
+        "selMissionAuditType",
+        "taMissionComments"
     ],
     "clipbounds": true,
     "containerweight": 100,

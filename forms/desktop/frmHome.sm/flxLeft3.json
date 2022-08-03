@@ -35,12 +35,11 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "StandardRadioCheckbox",
-        "StandardTextField2",
-        "StandardSelect2",
-        "CopyStandardDateSelector0a674610cf9854a",
-        "CopyStandardTextField0fb505bc25d4a4f",
-        "CopyStandardTextField0e3f610b82f4342"
+        "labelProposeMissionId",
+        "radioProposeStep",
+        "tfProposeDescription",
+        "selProposeSolutionType",
+        "taProposeRequirements"
     ],
     "clipbounds": true,
     "containerweight": 100,

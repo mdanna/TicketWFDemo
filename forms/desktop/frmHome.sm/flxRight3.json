@@ -35,9 +35,10 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyStandardRadioCheckbox0ca85c126fe064e",
-        "CopyStandardDateSelector0d47bb6e6dd334c",
-        "CopyStandardTextField0c295580f2fb04d"
+        "labelProposeMissionDate",
+        "radioProposeSoftware",
+        "dsProposeTargetDate",
+        "taProposeComplements"
     ],
     "clipbounds": true,
     "containerweight": 100,

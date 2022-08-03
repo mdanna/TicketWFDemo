@@ -35,10 +35,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyStandardTextField0d174904e85674b",
-        "CopyStandardSelect0a1d649cfefa049",
-        "CopyStandardSelect0f8aa91abab2c48",
-        "CopyStandardTextField0g26c00e196f447"
+        "tfRecoTitle",
+        "selRecoReferencedUnity",
+        "selRecoHierarchy"
     ],
     "clipbounds": true,
     "containerweight": 100,

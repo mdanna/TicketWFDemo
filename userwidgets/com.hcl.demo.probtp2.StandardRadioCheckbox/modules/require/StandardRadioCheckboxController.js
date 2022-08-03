@@ -38,7 +38,7 @@ define(function() {
     },
 
     getValue(){
-      return this.selection === 'left' ? 'Oui' : 'Non';
+      return this.selection === 'left' ? 'Yes' : 'No';
     },
     
     getBooleanValue(){
