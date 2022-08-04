@@ -14,7 +14,7 @@ define(function() {
       let ret = '';
       const dateComp = this.view.calSelection.dateComponents;
       if(dateComp){
-        ret = `${utils.getTwoDigitNumber(dateComp[0])}/${utils.getTwoDigitNumber(dateComp[1])}/${dateComp[2]}`;
+        ret = `${utils.getTwoDigitNumber(dateComp[2])}/${utils.getTwoDigitNumber(dateComp[1])}/${dateComp[0]}`;
       }
       return ret;
     },
@@ -23,7 +23,7 @@ define(function() {
       let ret = null;
       const dateComp = this.view.calSelection.dateComponents;
       if(dateComp){
-        ret = new Date(`${utils.getTwoDigitNumber(dateComp[0])}/${utils.getTwoDigitNumber(dateComp[1])}/${dateComp[2]}`);
+        ret = new Date(`${utils.getTwoDigitNumber(dateComp[2])}/${utils.getTwoDigitNumber(dateComp[1])}/${dateComp[0]}`);
       }
       return ret;
     },

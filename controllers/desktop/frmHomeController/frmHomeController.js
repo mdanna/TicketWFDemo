@@ -27,8 +27,11 @@ define({
           comments: this.view.taMissionComments.text
         };
         if(stepData.missionId && stepData.missionTitle){
+          //copy the values into step3 corrspoding fields
           this.view.labelProposeMissionId.text = stepData.missionId;
           this.view.labelProposeMissionDate.text = this.view.dsMissionDate.getDateAsString();
+          
+          globals.wfId = stepData.missionId;
 
           this.saveData(1, stepData).then((result) => {
             this.goToNextStep();
