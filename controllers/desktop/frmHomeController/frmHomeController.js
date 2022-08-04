@@ -1,64 +1,4 @@
 define({ 
-  resetData(){
-    globals.data = {};
-
-    //step1
-    this.view.tfMissionId.text = '';
-    this.view.dsMissionDate.reset();
-    this.view.tfMissionTitle.text = '';
-    this.view.selMissionType.selection = '';
-    this.view.selMissionAuditEntity.selection = '';
-    this.view.selMissionAuditUnity.selection = '';
-    this.view.selMissionAuditType.selection = '';
-    this.view.taMissionComments.text = '';
-
-    //step2
-    this.view.tfRecoId.text = '';
-    this.view.tfRecoTitle.text = '';
-    this.view.selRecoAuditUnity.selection = '';
-    this.view.selRecoReferencedUnity.selection  = '';
-    this.view.tfRecoEmail.text = '';
-    this.view.selRecoHierarchy.selection = '';
-    this.view.taRecoComments.text = '';
-
-    //step3
-    this.view.labelProposeMissionId.text = '';
-    this.view.radioProposeStep.selection = 'right';
-    this.view.tfProposeDescription.text = '';
-    this.view.selProposeSolutionType.selection = '';
-    this.view.taProposeRequirements.text = '';
-    this.view.labelProposeMissionDate.text = '';
-    this.view.radioProposeSoftware.selection = 'right';
-    this.view.dsProposeTargetDate.reset();
-    this.view.taProposeComplements.text = '';
-
-    //step4
-    this.view.taSolutionDefinition.text = '';
-
-    //step5
-    this.view.recapSolutionStep.text = '';
-    this.view.recapSolutionSoftware.text = '';
-    this.view.recapSolutionDescription.text = '';
-    this.view.recapSolutionTargetDate.text = '';
-    this.view.recapSolutionType.text = '';
-    this.view.recapSolutionRequirements.text = '';
-    this.view.recapSolutionComplements.text = '';
-    this.view.recapSolutionDefinition.text = '';
-
-    //step 6
-    this.view.selImplLevel.selection = '';
-    this.view.radioImplUserAcceptance.selection = 'right';
-    this.view.radioImplInvolve.selection = 'right';
-    this.view.taImplComments.text = '';
-
-    //step 7
-    this.view.recapImplLevel.text = '';
-    this.view.recapImplUserAcceptance.text = '';
-    this.view.recapImplInvolve.text = '';
-    this.view.recapImplComments.text = '';
-
-  },
-
   onViewCreated(){
 
     this.view.init = () => {
@@ -240,6 +180,66 @@ define({
   goToPreviousStep(){
     globals.step--;  
     eventManager.publish(globals.EVT_SET_STEP, globals.step);
+  },
+
+  resetData(){
+    globals.data = {};
+
+    //step1
+    this.view.tfMissionId.text = '';
+    this.view.dsMissionDate.reset();
+    this.view.tfMissionTitle.text = '';
+    this.view.selMissionType.selection = '';
+    this.view.selMissionAuditEntity.selection = '';
+    this.view.selMissionAuditUnity.selection = '';
+    this.view.selMissionAuditType.selection = '';
+    this.view.taMissionComments.text = '';
+
+    //step2
+    this.view.tfRecoId.text = '';
+    this.view.tfRecoTitle.text = '';
+    this.view.selRecoAuditUnity.selection = '';
+    this.view.selRecoReferencedUnity.selection  = '';
+    this.view.tfRecoEmail.text = '';
+    this.view.selRecoHierarchy.selection = '';
+    this.view.taRecoComments.text = '';
+
+    //step3
+    this.view.labelProposeMissionId.text = '';
+    this.view.radioProposeStep.selection = 'right';
+    this.view.tfProposeDescription.text = '';
+    this.view.selProposeSolutionType.selection = '';
+    this.view.taProposeRequirements.text = '';
+    this.view.labelProposeMissionDate.text = '';
+    this.view.radioProposeSoftware.selection = 'right';
+    this.view.dsProposeTargetDate.reset();
+    this.view.taProposeComplements.text = '';
+
+    //step4
+    this.view.taSolutionDefinition.text = '';
+
+    //step5
+    this.view.recapSolutionStep.text = '';
+    this.view.recapSolutionSoftware.text = '';
+    this.view.recapSolutionDescription.text = '';
+    this.view.recapSolutionTargetDate.text = '';
+    this.view.recapSolutionType.text = '';
+    this.view.recapSolutionRequirements.text = '';
+    this.view.recapSolutionComplements.text = '';
+    this.view.recapSolutionDefinition.text = '';
+
+    //step 6
+    this.view.selImplLevel.selection = '';
+    this.view.radioImplUserAcceptance.selection = 'right';
+    this.view.radioImplInvolve.selection = 'right';
+    this.view.taImplComments.text = '';
+
+    //step 7
+    this.view.recapImplLevel.text = '';
+    this.view.recapImplUserAcceptance.text = '';
+    this.view.recapImplInvolve.text = '';
+    this.view.recapImplComments.text = '';
+
   },
 
   saveData(step, stepData){
