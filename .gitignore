@@ -85,6 +85,13 @@ resources/customlibs/jsXml/binary.util.js
 resources/customlibs/jsXml/binary.util.xml
 resources/customlibs/jsXml/binarydata.js
 resources/customlibs/jsXml/binarydata.xml
+resources/customlibs/jsSrc/kiosk/WindowsOfflineObjects.js
+resources/customlibs/jsSrc/windows8/WindowsOfflineObjects.js
+resources/customlibs/jsSrc/winmobile/WindowsOfflineObjects.js
+resources/customlibs/jsSrc/winphone8/WindowsOfflineObjects.js
+resources/customlibs/jsSrc/winphone81s/WindowsOfflineObjects.js
+resources/customlibs/jsXml/offlineobjects/WindowsOfflineObjects.js
+resources/customlibs/jsXml/offlineobjects/WindowsOfflineObjects.xml
 
 # Visualizer headless build configuration files
 HeadlessBuild.properties
